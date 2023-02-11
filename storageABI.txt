@@ -1,0 +1,28 @@
+[
+	{
+		"inputs": [],
+		"name": "retrieve", // 函数名称
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "", // 参数名称
+				"type": "uint256" // 参数类型
+			}
+		],
+		"stateMutability": "view",  // 函数状态，值可以是 view, pure, view, nonpayab≤, 和 payab≤。
+		"type": "function" // 函数的类型
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "num",
+				"type": "uint256"
+			}
+		],
+		"name": "store",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
